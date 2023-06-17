@@ -7,4 +7,9 @@ import sklearn
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
+#reading the data 
+
+df = pd.read_csv('/content/drive/MyDrive/Datasets/50_Startups.csv')
+df.head()
+
 
